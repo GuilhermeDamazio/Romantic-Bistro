@@ -1,0 +1,167 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Anton&family=Lobster&display=swap');
+:root {
+    --h3-color: rgb(108, 14, 239);
+    --h3-size: 19.7px;
+    --h1-font-family: 'Lobster', 'cursive';
+    
+}
+
+
+
+div{display: flow-root;
+    word-spacing: 3.5px;
+    text-decoration: none;
+}
+
+#inicio{text-decoration: none;
+padding: 7px;}
+
+h3{
+    color: var(--h3-color);
+    font-size: var(--h3-size);
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+
+
+body{
+    background-image: linear-gradient(to top, #C37EDB,#B7A6F6, #FC8DCA);
+    background-attachment: fixed;
+    text-align: center;
+}
+
+h1{font-family:var(--h1-font-family);}
+
+p.msgfofa{
+    font-family: 'Amatic SC', 'cursive';
+    font-size: 25px;
+    text-align: center;
+}
+
+h3:hover{
+    color:red
+}
+
+
+
+footer{
+    background-color: #FC8DCA;
+    font-style: oblique;
+    text-align: center;
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.438) 3px 3px 0px 0px;
+    
+    
+    
+
+}
+
+
+p{
+    text-indent: initial;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+.container-fluid{
+    background-color: #FC8DCA;
+  
+    border-radius: 9px;
+    text-align: justify;
+    height: max-content;
+    width: max-content;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.438) 3px 3px 0px 0px;
+   
+    
+    
+}
+
+
+a:hover{
+    background-color: blanchedalmond;
+    transition-delay: 0.5;
+    border-radius: 2px;
+    box-shadow: 3px 3px 10px rgba(32, 14, 14, 0.333);
+    text-decoration: none;
+    
+}
+
+.breadcrumb{
+    background-color: #AAECFC;
+    margin: 3px;
+    display: inline-block;
+
+    
+    
+}
+
+.card{
+    background-color: #C37EDB;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin: auto;
+   
+    
+}
+
+.card-img-bottom{
+    max-width: 450px;
+    
+    min-width: 150px;
+}
+
+.card-reserva{
+    display: inline-table;
+    margin: auto;
+    
+    max-width: 420px;
+    min-width: 405px;
+   
+}
+
+
+.list-group-item{
+    background-color:#AAECFC;
+
+}
+
+main{
+    text-align: center;
+}
+
+.btn{
+   color: #CEB3F2;
+   background-color: #420B59;
+   
+   
+}
+
+.card-title{
+    text-align: center;
+    
+}
+
+
+
+.card-text1{color:blue;
+font-weight: bolder;
+background-color: #b7a6f674;
+}
+
+.img-fluid{
+    place-items: justify;
+}
+
+.card-title1{
+    text-align: center;
+    color: #730202;
+    background-color: #fc8dca8f;
+}
