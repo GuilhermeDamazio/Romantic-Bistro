@@ -1,6 +1,3 @@
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Anton&family=Lobster&display=swap');
 :root {
     --h3-color: rgb(108, 14, 239);
@@ -10,6 +7,21 @@
 }
 
 
+@media (max-width: 305.98px) {
+    header{ display: block;
+    text-align: center;
+    }
+    .container{ background-image: linear-gradient(to top, #C37EDB,#B7A6F6, #FC8DCA);
+        background-attachment: fixed;
+        margin: 10px;}}
+
+
+
+ 
+
+ header{margin: 10px;}
+
+ 
 
 div{display: flow-root;
     word-spacing: 3.5px;
@@ -54,6 +66,10 @@ footer{
     text-align: center;
     border-radius: 9px;
     box-shadow: rgba(0, 0, 0, 0.438) 3px 3px 0px 0px;
+    height: 70px;
+    width: 450px;
+    margin-top: 10px;
+    display: inline-block;
     
     
     
@@ -68,9 +84,9 @@ p{
 }
 
 
-.container-fluid{
+.container{
     background-color: #FC8DCA;
-  
+    display: flex;
     border-radius: 9px;
     text-align: justify;
     height: max-content;
