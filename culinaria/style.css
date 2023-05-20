@@ -15,7 +15,7 @@
         background-attachment: fixed;
         margin: 10px;}
         .card{
-            background-color: #C37EDB;
+            background-color: #c47edbd5;
             text-align: center;
             display: flex;
             justify-content: center;
@@ -96,7 +96,7 @@ p{
 
 
 .container{
-    background-color: #FC8DCA;
+    background-color: #fc8dcab9;
     display: flex;
     border-radius: 9px;
     text-align: justify;
