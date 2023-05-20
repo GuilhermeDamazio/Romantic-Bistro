@@ -13,7 +13,18 @@
     }
     .container{ background-image: linear-gradient(to top, #C37EDB,#B7A6F6, #FC8DCA);
         background-attachment: fixed;
-        margin: 10px;}}
+        margin: 10px;}
+        .card{
+            background-color: #C37EDB;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            text-align: justify;
+            margin: auto;
+           
+            
+        }
+    }
 
 
 
